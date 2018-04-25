@@ -33,9 +33,9 @@ Some things are still missing, in the design or in the implementation. But the p
 
 TODO:
 
-[ ] Design the creation of a context for graphics libraries (software, Direct3D, OpenGL, Vulkan, etc)
-[ ] Select free functions for vectors (`dot`, `cross`, etc)
-[ ] Implement `invert()` for `mat<T, 4>`
+- [ ] Design the creation of a context for graphics libraries (software, Direct3D, OpenGL, Vulkan, etc)
+- [ ] Select free functions for vectors (`dot`, `cross`, etc)
+- [ ] Implement `invert()` for `mat<T, 4>`
 
 
 ## Implementation
