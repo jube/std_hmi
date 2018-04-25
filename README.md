@@ -25,9 +25,18 @@ Obviously `<window>` depends on `<geometry>`.
 
 ## Work in progress
 
-For now, the implementation lives in a `hmi` namespace. This can be changed, as well as any other names (bikeshedding is allowed at the beginning, but with some arguments).
+For now, the implementation lives in a `hmi` namespace. This can be changed, as well as any other names (bikeshedding is allowed for now).
 
-Some things are still missing, in the design or in the implementation. But the proposal can already [pass the Beman's challenge](examples/beman_s_challenge.cc). The most important missing part is the creation of any context for graphics libraries (software, Direct3D, OpenGL, Vulkan, etc).
+Some things are still missing, in the design or in the implementation. But the proposal can already [pass the Beman's challenge](examples/beman_s_challenge.cc).
+
+![Beman's challenge](examples/beman_s_challenge.png)
+
+TODO:
+
+[ ] Design the creation of a context for graphics libraries (software, Direct3D, OpenGL, Vulkan, etc)
+[ ] Select free functions for vectors (`dot`, `cross`, etc)
+[ ] Implement `invert()` for `mat<T, 4>`
+
 
 ## Implementation
 
