@@ -312,12 +312,12 @@ An `operator()` is defined with two parameters: `row` for the row of the element
 
 Elements are stored in a [row-major order](https://en.wikipedia.org/wiki/Row-_and_column-major_order).
 
-| Library | Name for matrix type | References |
-|---------|----------------------|------------|
-| glm     | column-major         | [ref](http://glm.g-truc.net/glm.pdf) at 4.19 |
-| QVM     | row-major            | [ref](https://github.com/boostorg/qvm/blob/master/include/boost/qvm/mat.hpp#L19) |
-| linalg  | column-major         | [ref](https://github.com/sgorsten/linalg/blob/master/linalg.h#L116) |
-| hmi     | row-major            |            |
+| Library | Ordering     | References |
+|---------|--------------|------------|
+| glm     | column-major | [ref](http://glm.g-truc.net/glm.pdf) at 4.19 |
+| QVM     | row-major    | [ref](https://github.com/boostorg/qvm/blob/master/include/boost/qvm/mat.hpp#L19) |
+| linalg  | column-major | [ref](https://github.com/sgorsten/linalg/blob/master/linalg.h#L116) |
+| hmi     | row-major    |            |
 
 Specialization are defined for `N` equals to 2, 3 and 4 with special accessors for the fields of the matrix.
 
