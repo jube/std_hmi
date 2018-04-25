@@ -1,6 +1,6 @@
-# Human-Machine Interface for the standard library: a suggestion
+# Proposal for Human-Machine Interface in the Standard Library
 
-This is a proposal for what I would like to see in the C++ standard library regarding [human-machine interface](https://en.wikipedia.org/wiki/User_interface) (HMI). This is not a formal proposal but rather a proof of concept for something simple yet powerful that could be in the standard. If this idea gains attraction, it could be improved and become something more serious.
+This is a proposal for what I would like to see in the C++ standard library regarding [human-machine interface](https://en.wikipedia.org/wiki/User_interface) (HMI). This is not a formal proposal but rather a proof of concept for something simple yet powerful that could be in the standard. If the idea gains attraction, it could be improved and become something more serious.
 
 ## Reminder
 
