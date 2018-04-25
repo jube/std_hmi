@@ -288,5 +288,8 @@ public:
   void draw_circle(vec2f center, float radius, color4f color);
 
   void display();
+
+private:
+  renderer(/* implementation defined */);
 };
 ```
