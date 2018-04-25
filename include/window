@@ -1,0 +1,7 @@
+#ifndef HMI_WINDOW_H
+#define HMI_WINDOW_H
+
+#include "bits/renderer.h"
+#include "bits/window.h"
+
+#endif // HMI_WINDOW_H

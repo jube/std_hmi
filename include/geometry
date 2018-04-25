@@ -1,0 +1,10 @@
+#ifndef HMI_GEOMETRY_H
+#define HMI_GEOMETRY_H
+
+#include "bits/vec.h"
+#include "bits/vec_ops.h"
+#include "bits/mat.h"
+#include "bits/mat_ops.h"
+#include "bits/color.h"
+
+#endif // HMI_GEOMETRY_H
