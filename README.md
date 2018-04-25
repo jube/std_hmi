@@ -18,8 +18,8 @@ In [N3791: Lightweight Drawing Library - Objectives, Requirements, Strategies](h
 
 The proposal contains two parts.
 
-- a small vector and matrix library that lives in a `<geometry>` header: [design for <geometry>](docs/geometry.md)
-- a window class with window events and a very simple renderer that lives in a `<window>` header: [design for <window>](docs/window.md)
+- a small vector and matrix library that lives in a `<geometry>` header: [design for geometry](docs/geometry.md)
+- a window class with window events and a very simple renderer that lives in a `<window>` header: [design for window](docs/window.md)
 
 Obviously `<window>` depends on `<geometry>`.
 
