@@ -18,7 +18,7 @@ int main() {
   auto renderer = window.get_renderer();
 
   hmi::vec2i hello_size = { static_cast<int>(std::strlen(g_hello_text[0])), 5 };
-  hmi::vec2f pixel_size = { 10.0f, 15.0f };
+  hmi::vec2f pixel_size = { 10.0f, 10.0f * 3 / 5 * 1.61803398875f };
   hmi::vec2f size = hello_size * pixel_size;
 
   hmi::vec2f position = (window.get_size() - size) / 2;
